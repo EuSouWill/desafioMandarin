@@ -1,0 +1,106 @@
+A diferença fundamental entre a forma original com CSS e minha abordagem utilizando tabelas está na compatibilidade com os clientes de e-mail.
+
+Ao utilizar CSS, eu posso definir a aparência e o layout do conteúdo por meio de folhas de estilo. Essa abordagem deixa o código mais limpo e organizado, pois as regras de estilo ficam em uma folha separada. O layout é criado combinando elementos HTML, como divs e classes, com CSS para estilizar e posicionar os elementos na página. Essa técnica é ótima para criar layouts responsivos em páginas da web, principalmente quando a compatibilidade com navegadores modernos é importante.
+
+Já utilizando tabelas, a abordagem é mais antiga e foi bastante usada antes do suporte completo de CSS em clientes de e-mail. Essa é uma técnica mais confiável para garantir a compatibilidade com diferentes clientes de e-mail, já que muitos deles têm suporte limitado para estilos CSS. Nas tabelas, eu estruturo o layout do conteúdo e aplico os estilos diretamente nos elementos HTML, usando atributos inline ou tags de estilo internas. Essa abordagem é recomendada ao criar e-mails e newsletters que serão enviados para diversos clientes de e-mail, pois garante que o layout seja renderizado de forma mais consistente.
+
+Ambas as abordagens têm vantagens e desvantagens. O uso de CSS é preferível em contextos de desenvolvimento web moderno, onde busco uma estrutura mais semântica e reutilizável. No entanto, quando se trata de e-mails, a abordagem com tabelas é mais comum devido à compatibilidade com uma variedade de clientes. Mesmo que pareça menos elegante ou organizado do que o uso de CSS, é importante lembrar que e-mails têm suas próprias restrições e peculiaridades. Assim, a abordagem que funciona melhor para desenvolvimento web nem sempre se aplica diretamente ao desenvolvimento de e-mails.
+
+
+
+Para tornar o código responsivo, vou utilizar tabelas e algumas propriedades de estilo inline. Note que, ao trabalhar com e-mails, muitos estilos CSS podem não funcionar em clientes de e-mail. Nesse caso, devemos optar por técnicas mais antigas, como tabelas, que são mais amplamente suportadas.
+
+Aqui está o código utilizando tabelas para tornar o layout responsivo:
+
+//* ------------------------------------------------------*//
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Mandarin</title>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: rgb(254, 254, 254);">
+    <center>
+        <!-- Utilize a tag "center" para centralizar todo o conteúdo -->
+
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;">
+            <!-- Tabela principal com largura máxima de 600px, para melhor adaptação em dispositivos móveis -->
+
+            <tr>
+                <td align="center" style="padding: 20px;">
+                    <!-- Espaçamento interno de 20px -->
+
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                        style="background-color: rgb(221, 221, 221); margin-bottom: 20px; margin-top: 20px; padding-bottom: 100px;">
+                        <!-- Tabela para a seção1, com cor de fundo, espaçamentos e altura do rodapé -->
+
+                        <tr>
+                            <td align="center">
+                                <!-- Centralize o conteúdo -->
+
+                                <img src="/imagens/1.png" alt="mulher de roupa branca com megafone nas mãos"
+                                    style="display: block; width: 100%; max-width: 400px;">
+                                <!-- Imagem com largura de 100%, mas limitada a 400px de largura no máximo -->
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                                <img src="/imagens/2.png" alt="três mulheres conversando"
+                                    style="display: block; width: 100%; max-width: 400px;">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                                <img src="/imagens/3.png" alt="logo da NBA e Whatsapp"
+                                    style="display: block; width: 100%; max-width: 400px;">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center" style="height: 141px;">
+                                <img src="imagens/44.png" alt=""
+                                    style="display: block; width: 100%; max-width: 400px;">
+                            </td>
+                        </tr>
+
+                    </table>
+                    <!-- Fim da seção1 -->
+
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                        style="background-color: rgb(255, 255, 255); margin-bottom: 20px;">
+                        <!-- Tabela para a seção do rodapé, com cor de fundo e espaçamentos -->
+
+                        <tr>
+                            <td align="center" style="padding: 60px;">
+                                <!-- Espaçamento interno de 60px -->
+
+                                <p style="text-align: center; font-size: 24px;">Copyrigth &reg; Mandarin. Todos os direitos reservados.</p>
+                                <p style="text-align: center; font-size: 24px;">Caso não deseje mais receber nossos e-mails, por favor <u>clique aqui.</u></p>
+
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Fim do rodapé -->
+
+                </td>
+            </tr>
+        </table>
+        <!-- Fim da tabela principal -->
+
+    </center>
+    <!-- Fim do centro -->
+
+</body>
+
+</html>
+
+
+
+//**********************************************************//

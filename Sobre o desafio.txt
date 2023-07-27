@@ -1,0 +1,33 @@
+Sobre o desafio
+
+Nesta etapa, queremos conhecer um pouco melhor seus conhecimentos e como você costuma programar seus projetos.
+
+Preparamos para isso um briefing de um material onde vocês precisarão programá-lo e nos enviar o material final.
+
+Briefing:
+O MandaTrends é um report que mandamos periodicamente para nossos clientes. Selecionamos os conteúdos mais relevantes e inovadores para que nossos clientes possam se inspirar conosco.
+
+Queremos que você programe em html responsivo o layout disponibilizado no link abaixo.
+
+O layout está em um arquivo .PSD e precisará ser aberto pelo programa Adobe Photoshop ou algum outro software compatível com arquivos .PSD.
+
+Você deverá fatiar as imagens e programá-lo seguindo o layout do arquivo e as orientações abaixo.
+
+Arquivos para serem utilizados para este teste:
+https://mandarin.com.br/estagio/testes/devs/mandatrends_teste.zip
+
+Caso não tenha o Adobe Photoshop, veja algumas alternativas aqui:
+https://www.makeuseof.com/tag/the-best-ways-to-open-a-psd-file-without-photoshop/
+
+Sobre o código HTML
+O código deve programado em HTML e ser responsivo (se adaptando a diferentes telas). Atenção: deve ser considerado todas as limitações existentes nos softwares de leitura de emails.
+
+Queremos receber um Zip com o código html e as imagens utilizadas.
+
+Fique atentx ao prazo: Você tem até 25/08/2023 para nos enviar o desafio concluído. Não deixe para última hora, ein?
+
+Enviar o arquivo programado por este formulário, seguindo as próximas etapas.
+
+Importante: Este desafio prático será utilizado única e exclusivamente para a avaliação técnica necessária para a vaga.
+
+Boa sorte!
