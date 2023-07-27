@@ -5,22 +5,27 @@ body {
     font-family: Arial, sans-serif;
     background-color: rgb(254, 254, 254);
     margin-bottom: 20px;
-    
-    
-   
-    
 }
 
 /* Estilizar a classe .center-img para centralizar as imagens */
 .center-img {
     text-align: center;
-    
 }
 
 /* Adicione estilos específicos para diferentes tamanhos de tela usando Media Queries */
 /* Por exemplo, para telas menores que 768px */
 @media (max-width: 768px) {
     /* Insira estilos aqui para tamanhos menores de tela */
+    .main1 {
+        padding: 30px;
+        margin: 30px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .section1 {
+        padding-bottom: 50px; /* Ajuste a altura do padding para melhorar a aparência em dispositivos móveis */
+    }
 }
 
 /* Para telas maiores que 768px */
@@ -28,26 +33,22 @@ body {
     /* Insira estilos aqui para tamanhos maiores de tela */
 }
 
-.section1{
+.section1 {
     background-color: rgb(221, 221, 221);
     margin-bottom: 20px;
     margin-top: 20px;
     padding-bottom: 100px;
     padding-bottom: -10px;
-   
+}
 
-    
-}
-.main1{
+.main1 {
     background-color: rgb(255, 255, 255);
-    padding: 60px ;
+    padding: 60px;
     padding-bottom: 0.1px;
-    margin: 60px ;
-    
-    
-    
+    margin: 60px;
 }
-p{
+
+p {
     text-align: center;
     font-size: 24px;
 }
