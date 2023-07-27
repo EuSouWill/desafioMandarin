@@ -26,6 +26,9 @@ body {
     .section1 {
         padding-bottom: 30px; /* Ajuste a altura do padding para melhorar a aparência em dispositivos móveis */
     }
+    .center-img img {
+        max-width: 100%; /* Para garantir que as imagens se ajustem ao tamanho da tela */
+    }
 }
 
 /* Para telas maiores que 768px */
@@ -37,6 +40,9 @@ body {
     }
     p {
         font-size: 24px;
+    }
+    .center-img img {
+        max-width: 100%; /* Para garantir que as imagens se ajustem ao tamanho da tela */
     }
 }
 
@@ -57,20 +63,15 @@ p {
     font-size: 24px;
 }
 
+/* Para dispositivos móveis com largura de até 414px */
 @media (max-width: 414px) {
-    /* Insira estilos aqui para dispositivos móveis com dimensões 414x896 */
+    .center-img-footer {
+        max-width: 100%; /* Para garantir que as imagens se ajustem ao tamanho da tela */
+
+    }
     .main1 {
         padding: 20px;
         margin: 10px;
-        display: flex;
-        flex-direction: column; /* Colocar as divs na forma vertical */
-        align-items: center; /* Centralizar as divs horizontalmente */
-    }
-    .section1 {
-        padding-bottom: 40px; /* Ajuste a altura do padding para melhorar a aparência em dispositivos móveis */
-    }
-    .center-img img {
-        max-width: 100%; /* Para garantir que as imagens se ajustem ao tamanho da tela */
     }
     p {
         font-size: 18px;
